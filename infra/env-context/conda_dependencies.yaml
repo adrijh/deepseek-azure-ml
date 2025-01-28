@@ -1,0 +1,12 @@
+name: minimal
+channels:
+- conda-forge
+- anaconda
+dependencies:
+- python=3.11
+- pip=24.0
+- pip:
+  - azureml-inference-server-http
+  - transformers
+  - torch
+  - accelerate

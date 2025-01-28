@@ -1,0 +1,5 @@
+$schema: https://azuremlschemas.azureedge.net/latest/model.schema.json
+name: deepseek-llm-7b
+path: ../deepseek/model/
+type: custom_model
+description: DeepSeek LLM 7b Model
